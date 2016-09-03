@@ -1,10 +1,17 @@
 #include "iostream"
+
 using std::cin;
 using std::cout;
 using std::endl;
+
 void tureFalseTest();
+
 typedef unsigned int UInt;
 typedef unsigned int* PInt;
+
+#define A_NAME "asahi"
+#define YOU 2
+
 int main() {
 	tureFalseTest();
 	return 0;

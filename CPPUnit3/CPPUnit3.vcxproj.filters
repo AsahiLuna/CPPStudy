@@ -27,5 +27,11 @@
     <ClCompile Include="StaticCastTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SwapArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

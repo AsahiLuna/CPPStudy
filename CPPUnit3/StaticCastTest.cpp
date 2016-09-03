@@ -3,7 +3,7 @@
 using std::cin;
 using std::cout;
 using std::endl;
-
+/*
 int main() {
 	int a;
 	double b;
@@ -24,3 +24,4 @@ int main() {
 	cout << r << endl;
 	return 0;
 }
+*/

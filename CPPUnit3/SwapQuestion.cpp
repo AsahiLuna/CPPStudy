@@ -4,6 +4,7 @@ using std::cout;
 using std::endl;
 int swapInt(int*a, int*b, int*c);
 int swapInt(int&a, int&b, int&c);
+/*
 int main() {
 	int a(0), b(0), c(0);
 	int max;
@@ -13,6 +14,7 @@ int main() {
 	cout << max << " " << a << " " << b << " " << c;
 	return 0;
 }
+*/
 int swapInt(int*a, int*b, int*c) {
 	
 	int temp = *a;

@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="BoolExpression.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SwapQuestion.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

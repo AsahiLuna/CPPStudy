@@ -15,10 +15,7 @@ typedef unsigned int* PInt;
 #define A_NAME "asahi" 
 #define YOU 2
 
-int main() {
-	typeConversionTest();
-	return 0;
-}
+
 
 void tureFalseTest() {
 	int a = 0, b = 1;

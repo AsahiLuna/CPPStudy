@@ -2,8 +2,8 @@
 using std::cin;
 using std::cout;
 using std::endl;
-int swapInt(int*a, int*b, int*c);
-int swapInt(int&a, int&b, int&c);
+int swapInt(int* a, int* b, int* c);
+int swapInt(int& a, int& b, int& c);
 /*
 int main() {
 	int a(0), b(0), c(0);
@@ -15,7 +15,7 @@ int main() {
 	return 0;
 }
 */
-int swapInt(int*a, int*b, int*c) {
+int swapInt(int* a, int* b, int* c) {
 	
 	int temp = *a;
 	*a = *c;
@@ -25,7 +25,7 @@ int swapInt(int*a, int*b, int*c) {
 
 
 }
-int swapInt(int&a, int&b, int&c) {
+int swapInt(int& a, int& b, int& c) {
 	int temp = *&a;
 	*&a = *&c;
 	*&c = *&b;

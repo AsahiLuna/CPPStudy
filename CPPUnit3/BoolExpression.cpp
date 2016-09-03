@@ -3,10 +3,13 @@ using std::cin;
 using std::cout;
 using std::endl;
 void tureFalseTest();
+typedef unsigned int UInt;
+typedef unsigned int* PInt;
 int main() {
 	tureFalseTest();
 	return 0;
 }
+
 void tureFalseTest() {
 	int a = 0, b = 1;
 	cout << (3 == a) << endl;

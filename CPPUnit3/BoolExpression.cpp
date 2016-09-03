@@ -7,6 +7,7 @@ using std::endl;
 void tureFalseTest();
 void boolTypeTest();
 void isAlphaTest();
+void typeConversionTest();
 
 typedef unsigned int UInt;
 typedef unsigned int* PInt;
@@ -15,7 +16,7 @@ typedef unsigned int* PInt;
 #define YOU 2
 
 int main() {
-	isAlphaTest();
+	typeConversionTest();
 	return 0;
 }
 
@@ -53,4 +54,9 @@ void isAlphaTest() {
 		cout << std::boolalpha << 
 			    "isAlpha=" << isAlpha << endl;
 	}
+}
+void typeConversionTest() {
+	cout << static_cast<double>(1) / 2<<endl;
+	cout << 1 / 2<<endl;
+	printf("%d\n", int(2.5));
 }

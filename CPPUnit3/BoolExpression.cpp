@@ -6,7 +6,7 @@ using std::endl;
 
 void tureFalseTest();
 void boolTypeTest();
-
+void isAlphaTest();
 
 typedef unsigned int UInt;
 typedef unsigned int* PInt;
@@ -14,11 +14,8 @@ typedef unsigned int* PInt;
 #define A_NAME "asahi" 
 #define YOU 2
 
-
 int main() {
-	tureFalseTest();
-	cout << endl;
-	boolTypeTest();
+	isAlphaTest();
 	return 0;
 }
 
@@ -46,4 +43,14 @@ void boolTypeTest() {
 	cout << false << endl;
 	cout << true << endl;
 	
+}
+void isAlphaTest() {
+	bool isAlpha;
+	isAlpha = false;
+	if (!isAlpha)
+	{
+		cout << "isAlpha=" << isAlpha << endl;
+		cout << std::boolalpha << 
+			    "isAlpha=" << isAlpha << endl;
+	}
 }
